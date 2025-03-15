@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Settings - Eco Travel Forum</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+      }
+      body {
+        background-color: #f5f5f5;
+        text-align: center;
+      }
+      .container {
+        max-width: 900px;
+        margin: 30px auto;
+        background-color: white;
+        padding: 20px;
+        border-radius: 10px;
+      }
+      .header {
+        background-color: #055c1f;
+        padding: 15px;
+        font-size: 24px;
+        font-weight: bold;
+        color: white;
+      }
+      .nav {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        padding: 10px;
+        background-color: #067726;
+      }
+      .nav a {
+        color: white;
+        text-decoration: none;
+        font-size: 16px;
+      }
+      .settings-section {
+        margin: 30px 0;
+        text-align: left;
+        background: #eef7ee;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+      .settings-section h2 {
+        color: #055c1f;
+        text-align: center;
+        margin-bottom: 15px;
+      }
+      .settings-section label {
+        font-weight: bold;
+        display: block;
+        margin: 10px 0 5px;
+      }
+      .settings-section input,
+      .settings-section select,
+      .settings-section textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin-bottom: 10px;
+      }
+      .checkbox-group {
+        display: flex;
+        align-items: center;
+        margin-top: 10px;
+      }
+      .checkbox-group input {
+        margin-right: 10px;
+      }
+      .btn {
+        padding: 10px 15px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        font-size: 14px;
+        background-color: #067726;
+        color: white;
+        display: block;
+        margin-top: 15px;
+      }
+      .footer {
+        background-color: #055c1f;
+        padding: 10px;
+        color: white;
+        margin-top: 20px;
+        font-size: 14px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">Eco Travel Forum</div>
+      <div class="nav">
+        <a href="index1.html">Home</a>
+        <a href="index3.html">Sustainable Destinations</a>
+        <a href="index7.html">Green Tips</a>
+        <a href="index4.html">Forum</a>
+        <a href="index5.html">Profile</a>
+      </div>
+
+      <div class="settings-section">
+        <h2>Settings</h2>
+
+        <label for="username">Username</label>
+        <input type="text" id="username" placeholder="Enter your username" />
+
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Enter your email" />
+
+        <label for="bio">Bio</label>
+        <textarea id="bio" placeholder="Tell us about yourself"></textarea>
+
+        <h3>Travel Preferences</h3>
+
+        <label for="travel-mode">Preferred Eco-friendly Mode of Travel</label>
+        <select id="travel-mode">
+          <option>Train</option>
+          <option>Bicycle</option>
+          <option>Electric Car</option>
+          <option>Walking</option>
+        </select>
+
+        <div class="checkbox-group">
+          <input type="checkbox" id="notifications" />
+          <label for="notifications">Receive travel tips and news.</label>
+        </div>
+
+        <button class="btn">Save Changes</button>
+      </div>
+
+      <div class="footer">© 2025 Sustainable Travel. All rights reserved.</div>
+    </div>
+  </body>
+</html>
